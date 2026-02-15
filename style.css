@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none;
+       user-select: none; /* Standard syntax */
 }
 
 html,
@@ -45,10 +48,9 @@ body {
   padding-top: 6rem;
   padding-right: 1rem;
 }
-.main .container input:focus,
-.main .container textarea:focus,
-.main .container select:focus {
-  outline: none;
+.main .container input:disabled {
+  color: #000;
+  font-size: 2rem;
 }
 .main .container .buttons {
   display: flex;

@@ -19,44 +19,44 @@
     <div class="main">
         <div class="container">
             <div class="input-area">
-                <input type="text" name="#" id="#">
+                <input type="text" name="#" id="input-field" disabled>
             </div>
             <div class="buttons">
                 <!-- zeroth row -->
                 <div class="fifth-row rows">
-                    <div class="btn btn-cal">AC</div>
-                    <div class="btn btn-cal"><i class="ri-delete-back-2-line"></i></div>
-                    <div class="btn btn-cal">%</div>
-                    <div class="btn btn-cal"><i class="ri-divide-fill"></i></div>
+                    <div class="btn btn-cal" data-action="clear">AC</div>
+                    <div class="btn btn-cal" data-action="delete"><i class="ri-delete-back-2-line"></i></div>
+                    <div class="btn btn-cal" data-value="%">%</div>
+                    <div class="btn btn-cal" data-value="/"><i class="ri-divide-fill"></i></div>
                 </div>
                 <!-- first row -->
                 <div class="first-row rows">
-                    <div class="btn">7</div>
-                    <div class="btn">8</div>
-                    <div class="btn">9</div>
-                    <div class="btn btn-cal"><i class="ri-asterisk"></i></div>
+                    <div class="btn" data-value="7">7</div>
+                    <div class="btn" data-value="8">8</div>
+                    <div class="btn" data-value="9">9</div>
+                    <div class="btn btn-cal" data-value="*"><i class="ri-asterisk"></i></div>
                 </div>
                 <!-- second row -->
                 <div class="second-row rows">
-                    <div class="btn">4</div>
-                    <div class="btn">5</div>
-                    <div class="btn">6</div>
-                    <div class="btn btn-cal">-</div>
+                    <div class="btn" data-value="4">4</div>
+                    <div class="btn" data-value="5">5</div>
+                    <div class="btn" data-value="6">6</div>
+                    <div class="btn btn-cal" data-value="-">-</div>
                 </div>
                 <!-- third row -->
                 <div class="thrid-row rows">
-                    <div class="btn">1</div>
-                    <div class="btn">2</div>
-                    <div class="btn">3</div>
-                    <div class="btn btn-cal">+</div>
+                    <div class="btn" data-value="1">1</div>
+                    <div class="btn" data-value="2">2</div>
+                    <div class="btn" data-value="3">3</div>
+                    <div class="btn btn-cal" data-value="+">+</div>
                 </div>
 
                 <!-- fourth row -->
                 <div class="fourth-row rows">
-                    <div class="btn"><i class="ri-github-fill"></i></div>
-                    <div class="btn">0</div>
-                    <div class="btn">.</div>
-                    <div class="btn btn-cal equal">=</div>
+                    <div class="btn" data-value="github"><i class="ri-github-fill"></i></div>
+                    <div class="btn" data-value="0">0</div>
+                    <div class="btn" data-value=".">.</div>
+                    <div class="btn btn-cal equal" data-action="equal">=</div>
                 </div>
             </div>
         </div>
