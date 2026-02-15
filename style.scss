@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    -webkit-user-select: none; /* Safari */
+    user-select: none; /* Standard syntax */
 }
 
 html,
@@ -44,14 +46,11 @@ body {
             text-align: right;
             padding-top: 6rem;
             padding-right: 1rem;
-
-
         }
 
-        input:focus,
-        textarea:focus,
-        select:focus {
-            outline: none;
+        input:disabled {
+            color: #000;
+            font-size: 2rem;
         }
 
         .buttons {
