@@ -1,68 +1,52 @@
 # 🧮 Calculator App
 
 A simple calculator web application built using HTML, CSS, and Vanilla JavaScript.  
-This project was created to strengthen core JavaScript fundamentals, DOM manipulation, and logical thinking.
+This project focuses on strengthening core JavaScript fundamentals, DOM manipulation, and logical thinking.
 
----
+## 🎥 Calculator Preview
+
+<p align="center">
+  <img src="./assets/calculator.gif" alt="Calculator Preview" width="600"/>
+</p>
 
 ## 🚀 Features
 
-- Basic arithmetic operations (+, −, ×, ÷)
-- Interactive button-based input
-- Clear (reset) functionality
-- Real-time display updates
-- Responsive layout
-
----
+- Basic arithmetic operations (+, −, ×, ÷)  
+- Interactive button-based input  
+- Clear (reset) functionality  
+- Real-time display updates  
+- Responsive layout  
 
 ## 🛠️ Tech Stack
 
 - HTML5  
 - CSS3  
-- JavaScript (Vanilla JS)
-
----
+- JavaScript (Vanilla JS)  
 
 ## 🎯 Purpose of This Project
 
-This project was built to:
+The goal of this project is to:
 
 - Practice DOM selection and manipulation  
-- Handle click events and user interaction  
-- Manage application state  
-- Improve logic-building skills without external libraries  
+- Handle user interactions using event listeners  
+- Manage application state effectively  
+- Strengthen logical thinking without relying on external libraries  
 
----
+## 🧠 Key Learnings
 
-## 📂 Project Structure
-
-calculator-app/
-│── index.html  
-│── style.scss  
-│── style.css  
-│── script.js  
-
----
-
-## 🧠 What I Learned
-
-- Handling dynamic input using event listeners  
-- Updating UI elements with JavaScript  
+- Handling dynamic input with event listeners  
+- Updating UI elements using JavaScript  
 - Managing edge cases in arithmetic operations  
-- Structuring small frontend projects cleanly  
-
----
+- Structuring small frontend projects in a clean and maintainable way  
 
 ## 📌 Future Improvements
 
-- Keyboard input support  
-- Backspace functionality  
+- Add keyboard input support  
+- Implement backspace functionality  
 - Prevent invalid expressions  
-- UI/UX enhancements  
-
----
+- Enhance UI/UX for better user experience  
 
 ## 👨‍💻 Author
 
-Suraj Kumar  
-GitHub: https://github.com/ImSurajx
+**Suraj Kumar**  
+GitHub: <https://github.com/ImSurajx>
